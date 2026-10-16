@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #2867c5;
+    color: #333;
+}
+
+nav a {
+    color: #f6f7fa;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 12px;
+
+    border-radius: 4px;
+    background-color: #515e34;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+header {
+    background-color: #92111167; 
+    color: white; 
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: rgb(230, 50, 50);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.badge-v1 {
+    display: inline-block;
+    background-color: #feebc8;
+    color: #c05621;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: #718096;
+    padding: 1rem;
+}
